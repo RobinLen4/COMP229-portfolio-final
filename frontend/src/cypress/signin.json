@@ -1,0 +1,9 @@
+{
+  "testName": "Sign In",
+  "steps": [
+    { "action": "visit", "value": "/login" },
+    { "action": "type", "selector": "#email", "value": "john@test.com" },
+    { "action": "type", "selector": "#password", "value": "123456" },
+    { "action": "click", "selector": "button[type='submit']" }
+  ]
+}

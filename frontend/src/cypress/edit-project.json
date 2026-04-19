@@ -1,0 +1,10 @@
+{
+  "testName": "Edit Project",
+  "steps": [
+    { "action": "visit", "value": "/projects" },
+    { "action": "click", "selector": ".edit-button" },
+    { "action": "clear", "selector": "#title" },
+    { "action": "type", "selector": "#title", "value": "Updated Project" },
+    { "action": "click", "selector": "button[type='submit']" }
+  ]
+}

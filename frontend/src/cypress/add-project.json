@@ -1,0 +1,9 @@
+{
+  "testName": "Add Project",
+  "steps": [
+    { "action": "visit", "value": "/projects/add" },
+    { "action": "type", "selector": "#title", "value": "Test Project" },
+    { "action": "type", "selector": "#description", "value": "Cypress test project" },
+    { "action": "click", "selector": "button[type='submit']" }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "testName": "Sign Out",
+  "steps": [
+    { "action": "click", "selector": "button.logout" }
+  ]
+}
